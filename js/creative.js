@@ -5,14 +5,14 @@
 */
 
 (function($) {
-/* ---------------------------------------------- /*
-	 * Preloader
-	/* ---------------------------------------------- */
+    /* ---------------------------------------------- /*
+    	 * Preloader
+    	/* ---------------------------------------------- */
 
-	$(window).load(function() {
-		$('#loading').fadeOut();
-		$('#preloader').delay(300).fadeOut('slow');
-	});
+    $(window).load(function() {
+        $('#loading').fadeOut();
+        $('#preloader').delay(300).fadeOut('slow');
+    });
 
     "use strict"; // Start of use strict
 
@@ -55,4 +55,3 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
-
